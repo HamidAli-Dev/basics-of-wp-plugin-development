@@ -36,3 +36,12 @@ require_once HA_PLUGIN_DIR_PATH . 'inc/scripts.php';
 
 // include hooks: actions and filters
 require_once HA_PLUGIN_DIR_PATH . 'inc/hooks.php';
+
+// include custom post types
+require_once HA_PLUGIN_DIR_PATH . 'inc/cpt.php';
+
+// include custom taxonomies
+require_once HA_PLUGIN_DIR_PATH . 'inc/texonomy.php';
+
+// include metaboxes
+require_once HA_PLUGIN_DIR_PATH . 'inc/metaboxes.php';

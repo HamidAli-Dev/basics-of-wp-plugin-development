@@ -1,3 +1,10 @@
-body{
+/* body{
     background-color: rgb(185, 108, 6);
+} */
+
+.meta-box-container{
+    background-color: #e61c1c !important;
+    padding: 10px !important;
+    display: flex !important;
+
 }
