@@ -33,3 +33,6 @@ if(!defined("HA_PLUGIN_DIR_URL")){
 
 // include scripts
 require_once HA_PLUGIN_DIR_PATH . 'inc/scripts.php';
+
+// include hooks: actions and filters
+require_once HA_PLUGIN_DIR_PATH . 'inc/hooks.php';
