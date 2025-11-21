@@ -45,3 +45,6 @@ require_once HA_PLUGIN_DIR_PATH . 'inc/texonomy.php';
 
 // include metaboxes
 require_once HA_PLUGIN_DIR_PATH . 'inc/metaboxes.php';
+
+// include shortcodes
+require_once HA_PLUGIN_DIR_PATH . 'inc/shortcodes.php';
