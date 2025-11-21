@@ -48,3 +48,7 @@ require_once HA_PLUGIN_DIR_PATH . 'inc/metaboxes.php';
 
 // include shortcodes
 require_once HA_PLUGIN_DIR_PATH . 'inc/shortcodes.php';
+
+// include admin menus and pages
+require_once HA_PLUGIN_DIR_PATH . 'inc/admin-menu.php';
+require_once HA_PLUGIN_DIR_PATH . 'inc/admin-page.php';
