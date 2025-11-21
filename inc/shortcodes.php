@@ -2,7 +2,8 @@
 
 // Simple Shortcode Example
 function my_shortcode(){
-    return "<h2>This is simple shortcode output</h2>";
+    $db_value = get_option( "ha_setting_field_txt_1" );
+    // return "<h2>This is simple shortcode output</h2>";
 }
 add_shortcode( "HA_TEST", "my_shortcode" );
 // usage: [HA_TEST]
